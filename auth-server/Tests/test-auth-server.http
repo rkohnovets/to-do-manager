@@ -1,0 +1,8 @@
+### Ёто файл дл€ тестировани€ запросов
+# TODO: переписать его или удалить
+# (но зачем он, когда есть постман или swagger...)
+
+@auth_server_HostAddress = http://localhost:5008
+
+GET {{auth_server_HostAddress}}/weatherforecast/
+Accept: application/json
